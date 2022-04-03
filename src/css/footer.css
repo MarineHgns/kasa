@@ -1,0 +1,16 @@
+.footer {
+    height: 8em;
+    background-color: black;
+    color: white;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+.credits {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.logo {
+padding-bottom: 0.5em;
+}

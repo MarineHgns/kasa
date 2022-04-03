@@ -1,8 +1,11 @@
+
 .kasa-logo {
     height: 3em;
 }
 
-.header {
+.header { 
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     justify-content: space-between;
 }

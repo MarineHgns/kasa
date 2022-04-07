@@ -7,10 +7,24 @@
 }
 
 .credits {
-    padding-top: 2em;
+    padding-top: 2.5em;
     text-align: center;
+    font-size: 0.8em;
+    line-height: 3em;
+    font-weight: 500;
 }
 
 .logo {
 padding-bottom: 0.5em;
+}
+
+@media screen and (max-width: 425px){
+    .footer {
+        height: 6em;
+    }
+    
+    .credits {
+        padding-top: 1.5em;
+        line-height: 2.4em;
+    }
 }

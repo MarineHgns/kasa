@@ -1,0 +1,38 @@
+
+.banner {
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 223px;
+    width: 100%;
+    border-radius: 25px;
+    display: table;
+  }   
+  
+ .text-banner-home {
+      color: white;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      display: table-cell;
+      font-family: Montserrat;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 68px;
+    }
+    
+    
+    @media only screen and (max-width: 425px) {
+      .banner {
+          height: 111px;
+      margin-top: 10px;
+      }
+
+      .text-banner-home {
+        font-size: 24px;
+        text-align: left;
+        line-height: 24px;
+        padding: 10px;
+      }
+    }

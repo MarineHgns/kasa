@@ -1,0 +1,18 @@
+.star {
+    width: 1.6em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.star-empty {
+    width: 1.6em;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    margin: 0.2em;
+}

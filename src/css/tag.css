@@ -1,0 +1,21 @@
+.tag {
+    list-style-type: none;
+    padding: 0.2em 1em;
+    background: #FF6060;
+    border-radius: 10px;
+    color: white;
+    margin: 0.4em;
+}
+
+.tags {
+    display: flex;
+}
+
+.tags > ul {
+    margin: 0em;
+    padding-left: 0em;
+}
+
+.info-bottom > ul {
+    padding-left: 0em;
+}

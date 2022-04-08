@@ -1,0 +1,40 @@
+.accomodation-page {
+    width: 80%;
+    margin: auto;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.host {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.host h3 {
+    padding-right: 5em;
+    white-space: normal;
+    width: 2em;
+}
+
+.info-bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.info-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 425px){
+   .info h1 {
+       font-size: 1em;
+   }
+    
+  }

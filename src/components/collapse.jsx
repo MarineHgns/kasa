@@ -1,6 +1,7 @@
 import arrowdown from '../assets/arrowdown.svg'
 import arrowup from '../assets/arrowup.svg'
 import { useState } from 'react'
+import "../css/collapse.css"
 
 
 
@@ -21,9 +22,17 @@ function Collapse({title, content}) {
                 <h3>{title}</h3>
                 <img src={arrowup} alt="arrow-up" onClick={() => setIsClosed(true)}/>
             </div>
-                <div className="dropdown-content">
-                    <p>{content}</p>
-                </div>
+            <div className="dropdown-content">
+                {Array.isArray(content)? 
+                    (<ul>
+                        {content.map((equipment, index) => (
+                            <li key={`${equipment}-${index}`}>{equipment}</li>)
+                        )}
+                    </ul>) 
+                    : 
+                    (<p>{content}</p>)
+                }
+            </div>
             
         </div>
     )

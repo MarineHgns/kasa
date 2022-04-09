@@ -20,7 +20,7 @@ function Collapse({title, content}) {
         <div className="dropdown">
             <div className="dropdown-title">
                 <h3>{title}</h3>
-                <img src={arrowup} alt="arrow-up" onClick={() => setIsClosed(true)}/>
+                    <img src={arrowup} alt="arrow-up" onClick={() => setIsClosed(true)}/>
             </div>
             <div className="dropdown-content">
                 {Array.isArray(content)? 

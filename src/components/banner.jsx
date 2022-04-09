@@ -12,7 +12,7 @@ function Banner() {
       }}>
         <h1 className="text-banner-home"> {textBannerHome} </h1>
       
-    </div>
+      </div>
     )
     
   }

@@ -5,7 +5,7 @@
     background-position: center;
     background-size: cover;
     height: 223px;
-    width: 100%;
+    width: 95%;
     border-radius: 25px;
     display: table;
   }   
@@ -23,12 +23,10 @@
     }
     
     
-    @media only screen and (max-width: 425px) {
+    @media only screen and (max-width: 426px) {
       .banner {
         height: 111px;
-        margin-top: 10px;
         border-radius: 10px;
-        max-width: 80%;
         margin: auto;
       }
 

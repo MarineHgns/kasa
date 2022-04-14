@@ -1,5 +1,5 @@
 .accomodation-container {
-    max-width: 100%;
+    max-width: 95%;
     margin: auto;
     background-color: #F6F6F6;
     border-radius: 25px;
@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     margin-top: 3em;
     padding-top: 3em;
+    margin-bottom: 2em;
 }
 
 .accomodation-container > a {
@@ -20,8 +21,8 @@
 }
 
 .thumb {
-    height: 340px;
-    width: 340px;
+    height: 18em;
+    width: 18em;
     margin: auto; 
 }
 
@@ -45,7 +46,7 @@
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
     .accomodation-container > a {
         padding-left: 0em;
         width: 100%;
@@ -60,7 +61,6 @@
         background-color: white;
         display: grid;
         grid-template-columns: repeat(1);
-        max-width: 80%;
         margin: auto;
     }
 

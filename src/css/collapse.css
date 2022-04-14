@@ -31,7 +31,7 @@
     margin-block-start: 0px;
     padding: 1em;
     border-radius: 0px 0px 8px 8px; 
-    height: 12em;
+    /* height: 12em; */
 }
 
 .dropdown-content li {
@@ -43,17 +43,24 @@
 }
 
 .dropdowns {
-    margin-bottom: 3em;
+    margin: auto;
+    margin-bottom: 1.8em;
     display: flex;
-    max-width: 100%;
-    position: relative;
-    left: -1em;
+    justify-content: space-between;
+    margin-top: -1em;
+}
+
+.dropdowns > .dropdown {
+    padding: 0em 0em;
+    width: 46%;
+    margin-left: -0em;
+    margin-right: -0em;
 }
 
 
 @media only screen and (max-width: 426px) {
     .page-about {
-        margin: 1em;
+        margin-top: 1em;
     }
 
     .dropdown-title h3 {
@@ -63,8 +70,9 @@
     }
 
     .dropdown {
-        margin-top: 1em;
+        margin-top: 0.6em;
         width: 100%;
+        padding: 0.1em 0.5em;
     }
 
     .dropdown-title img {
@@ -73,11 +81,18 @@
     }  
     
     .about {
-        height: 10em;
+        height: 12em;
     }
 
-    section {
-        height: 410px;
+
+    .collapse-about {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .dropdowns {
+        margin-top: 0.4em;
+        margin-bottom: 13em;
     }
 
   }

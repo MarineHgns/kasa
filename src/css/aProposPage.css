@@ -1,4 +1,10 @@
 .page-about {
-    margin: 8.7em;
+    width: 95%;
+    margin: auto;
     margin-top: 3em;
+}
+
+.collapse-about {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }

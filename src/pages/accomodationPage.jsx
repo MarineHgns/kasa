@@ -5,6 +5,7 @@ import Host from '../components/profileHost';
 import Rating from '../components/rating'
 import Tags from '../components/tag';
 import "../css/accomodationPage.css"
+import Gallery from '../components/gallery';
 
 
 function Accomodation(props) { 
@@ -20,6 +21,7 @@ function Accomodation(props) {
             {logements.logements.filter(house => house.id === id).map((accomodationById, index) => (
                 
                 <div key={index} className="accomodation-page">
+                    <Gallery pictures={accomodationById.pictures}/>
                     <div className="info">
 
                         <div className="info-top">
@@ -28,13 +30,12 @@ function Accomodation(props) {
                                 <h1>{accomodationById.title}</h1>
                                 <p>{accomodationById.location}</p>
                             </div>
+                        <Tags listTags={accomodationById.tags}/>
                         
-                        <Host picture={accomodationById.host.picture} name={accomodationById.host.name} />
                         </div>
-
-                        <div className='info-bottom'>
+                        <div className='profile'>
+                            <Host picture={accomodationById.host.picture} name={accomodationById.host.name} />
                             <Rating ratingValue={accomodationById.rating}/>
-                            <Tags listTags={accomodationById.tags}/>
                         </div>
                     </div>
                     

@@ -13,8 +13,9 @@ const [isLoaded, setIsLoaded] = useState(false)
 
   useEffect(() => {
     const fetchJSON = () => {
-     fetch('/data/data.json')
-      .then(res => res.json())
+     fetch('src/data/data.json')
+      // .then(res => res.json())
+      .then(res=>res.text())
       .then(
         (result) => {
             setIsLoaded(true)

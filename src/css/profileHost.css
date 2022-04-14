@@ -1,8 +1,17 @@
 .host-pic {
     border-radius: 50%;
-    width: 6em;
+    width: 5em;
 }
 
 .host h3 {
+    padding-right: 5em;
+    white-space: normal;
+    width: 2em;
     font-size: 1em;
+}
+
+@media screen and (max-width: 426px){
+    .host-pic {
+        width: 3em; 
+    } 
 }

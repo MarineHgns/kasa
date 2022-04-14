@@ -9,13 +9,29 @@
 
 .tags {
     display: flex;
+    margin-bottom: -1em;
+    margin-left: -2em ;
 }
 
 .tags > ul {
     margin: 0em;
     padding-left: 0em;
+    margin-bottom: -1em;
 }
 
 .info-bottom > ul {
     padding-left: 0em;
+}
+
+@media screen and (max-width: 426px){
+    .tags {
+        margin-left: -3em;
+        justify-content: space-around;
+        display: flex;
+        margin-top: -0.4em;
+    }
+
+    .tag {
+        padding: 0.2em 0.6em;
+    }
 }

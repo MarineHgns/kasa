@@ -10,6 +10,10 @@
     display: table;
   }   
   
+.about {
+  margin-bottom: 4.2em;
+}
+
  .text-banner-home {
       color: white;
       position: relative;

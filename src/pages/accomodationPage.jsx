@@ -30,8 +30,7 @@ function Accomodation(props) {
                                 <h1>{accomodationById.title}</h1>
                                 <p>{accomodationById.location}</p>
                             </div>
-                        <Tags listTags={accomodationById.tags}/>
-                        
+                            <Tags listTags={accomodationById.tags}/>
                         </div>
                         <div className='profile'>
                             <Host picture={accomodationById.host.picture} name={accomodationById.host.name} />

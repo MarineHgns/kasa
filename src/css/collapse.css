@@ -75,6 +75,10 @@
         padding: 0.1em 0.5em;
     }
 
+    .dropdown-content {
+        font-size: 0.9em;
+    }
+
     .dropdown-title img {
        height: 0.6em;
        padding-right: 0.5em;

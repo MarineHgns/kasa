@@ -11,12 +11,14 @@
     display: flex;
     margin-bottom: -1em;
     margin-left: -2em ;
+    padding-bottom: 1em; 
 }
 
 .tags > ul {
     margin: 0em;
     padding-left: 0em;
     margin-bottom: -1em;
+    
 }
 
 .info-bottom > ul {
@@ -25,13 +27,15 @@
 
 @media screen and (max-width: 426px){
     .tags {
-        margin-left: -3em;
-        justify-content: space-around;
+        margin-left: -2.1em;
         display: flex;
         margin-top: -0.4em;
+        margin-bottom: 0.1em;
     }
 
     .tag {
         padding: 0.2em 0.6em;
+        font-size: 0.7em;
+        border-radius: 5px;
     }
 }

@@ -8,11 +8,11 @@ import "../css/accomodationPage.css"
 import Gallery from '../components/gallery';
 
 
-function Accomodation(props) { 
+function Accomodation() { 
     const { id } = useParams()
     const accomodationById = logements.logements.filter((house) => house.id === id)
-
-    if(accomodationById == null) {
+    
+    if(accomodationById == null || accomodationById.length === 0) {
         return <Navigate to='/*' />
     }
     

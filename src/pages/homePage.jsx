@@ -16,7 +16,7 @@ const [isLoaded, setIsLoaded] = useState(false)
      fetch('src/data/data.json')
       .then(res=>res.text())
       .then(
-        (result) => {
+        () => {
             setIsLoaded(true)
         },
         (error) => {

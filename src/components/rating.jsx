@@ -4,7 +4,7 @@ import "../css/rating.css"
 
 function Rating(props) {	
     const range = [1, 2, 3, 4, 5]
-    const ratingValue = <props className="ratingValue"></props>
+    const ratingValue = props.ratingValue
     return (
         <div className="rating">
             
